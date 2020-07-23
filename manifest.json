@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia Dark Theme",
+    "version": "1.0",
+    "description": "Dark theme for Wikipedia",
+    "icons": {
+        "32": "wikipedia-icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*.wikipedia.org/*"],
+        "css": ["theme.css"]
+      }
+    ]
+  }

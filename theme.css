@@ -1,0 +1,19 @@
+body, h1, h2, h3, h4, table, td, abbr, ul,
+div ul li a, div, p, span, ul, li,
+#footer-info-lastmod, #footer-info-copyright {
+    color: #eee !important;
+    background: #161616 !important;
+}
+
+th {
+    background-color: #292929 !important;
+}
+
+a:not(.extiw),
+#footer-places-privacy a, .reference-text a {
+    color: #0f0 !important;
+}
+
+img.mwe-math-fallback-image-inline, .helpContents-icon img {
+    filter: invert(100%) !important;
+}
