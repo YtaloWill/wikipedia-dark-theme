@@ -1,5 +1,6 @@
 body, h1, h2, h3, h4, table, td, abbr, ul,
-div ul li a, div, p, span, ul, li,
+div ul li a, div, p, ul, li,
+#toc span,
 #footer-info-lastmod, #footer-info-copyright {
     color: #eee !important;
     background: #161616 !important;
